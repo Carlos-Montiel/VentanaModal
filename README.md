@@ -63,7 +63,7 @@ $('#notificacion').click(function(event) {
 			<pre>
 $('#personalizado').click(function(event) {
     texto = '&lt;strong>Texto&lt;/strong&gt; personalizado';
-    boton = '&lt;a class="red" href="#"&gt;&lt;i class="fa fa-trash"&gt;&lt;/i&gt;BOTON&lt;/a&gt;';
+    boton = '&lt;a class="red" href="#"&gt;BOTON&lt;/a&gt;';
     ventanaModal("personalizado", texto, boton, "Titulo Personalizado");
 });		
 			</pre>
