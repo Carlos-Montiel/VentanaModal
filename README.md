@@ -26,7 +26,7 @@
 $('#confirmacion').click(function(event) { 
     texto = '&lt;strong&gt;Texto&lt;/strong&gt; ejemplo&lt;br&gt;'+ 
            '¿Realmente desea eliminar el elemento?'; 
-    boton = '&lt;a class="green" href="#"&gt;BOTON&lt;/a&gt;';
+    boton = '&lt;a class="red" href="#"&gt;ELIMINAR&lt;/a&gt;';
     ventanaModal("confirmacion", texto, boton);
 });				
 			</pre>
@@ -63,7 +63,7 @@ $('#notificacion').click(function(event) {
 			<pre>
 $('#personalizado').click(function(event) {
     texto = '&lt;strong>Texto&lt;/strong&gt; personalizado';
-    boton = '&lt;a class="green" href="#"&gt;&lt;i class="fa fa-trash"&gt;&lt;/i&gt;BOTON&lt;/a&gt;';
+    boton = '&lt;a class="red" href="#"&gt;&lt;i class="fa fa-trash"&gt;&lt;/i&gt;BOTON&lt;/a&gt;';
     ventanaModal("personalizado", texto, boton, "Titulo Personalizado");
 });		
 			</pre>

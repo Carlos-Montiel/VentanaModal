@@ -1,11 +1,14 @@
 .green{
-  color: #326500 !important;
+  color: green !important;
+  border-color: green !important;
 }
 .red{
-  color: #CC3402 !important;
+  color: red !important;
+  border-color: red !important;
 }
 .yellow{
-  color: #FF3600 !important;
+  color: yellow !important;
+  border-color: yellow !important;
 }
 
 /*------------*/
