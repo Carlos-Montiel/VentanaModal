@@ -7,8 +7,8 @@ function cierraModal () {
   
 }
 function ventanaModal (tipo, texto, boton, titulo) {
-  botonOk = '<a onclick="cierraModal();"><strong class="green">OK</strong></a>';
-  botonCancelar = '<a onclick="cierraModal();" class="red">CANCELAR</a>';
+  botonOk = '<button onclick="cierraModal();"><strong class="green">OK</strong></button>';
+  botonCancelar = '<button onclick="cierraModal();" class="red">CANCELAR</button>';
   if(boton == undefined){ boton = "" }
   if (tipo == "confirmacion") {
     titulo = 'Confirmación';
