@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html>
 <head>
 	<meta charset="utf-8">
@@ -19,7 +18,7 @@
 	<h2>Uso</h2>
 	<ul>
 		<li>
-			<a href="#" title="Cofirmación" id="confirmacion">Confirmación</a><br>
+			Confirmación<br>
 			HTML:<br>
 			&lt;a href="#" title="Cofirmación" id="confirmacion"&gt;Confirmación&lt;/a&gt;<br>
 			JS:<br>
@@ -33,7 +32,7 @@ $('#confirmacion').click(function(event) {
 			</pre>
 		</li>
 		<li>
-			<a href="#" title="Alerta" id="alerta">Alerta</a><br>
+			Alerta<br>
 			HTML:<br>
 			&lt;a href="#" title="Alerta" id="alerta"&gt;Alerta&lt;/a&gt;<br>
 			JS:<br>
@@ -45,7 +44,7 @@ $('#alerta').click(function(event) {
 			</pre>
 		</li>
 		<li>
-			<a href="#" title="Notificacíon" id="notificacion">Notificación</a><br>
+			Notificación<br>
 			HTML:<br>
 			&lt;a href="#" title="Notificacíon" id="notificacion"&gt;Notificación&lt;/a&gt;<br>
 			JS:<br>
@@ -57,7 +56,7 @@ $('#notificacion').click(function(event) {
 			</pre>
 		</li>
 		<li>
-			<a href="#" title="Personalizado" id="personalizado">Personalizado</a><br>
+			Personalizado<br>
 			HTML:<br>
 			&lt;a href="#" title="Personalizado" id="personalizado"&gt;Personalizado&lt;/a&gt;<br>
 			JS:<br>
@@ -72,24 +71,3 @@ $('#personalizado').click(function(event) {
 	</ul>
 </body>
 </html>
-<script>
-	$('#confirmacion').click(function(event) {
-	    texto = '<strong>Texto</strong> ejemplo<br>'+
-	           '¿Realmente desea eliminar el elemento?';
-	    boton = '<a class="green" href="#">BOTON</a>';
-	    ventanaModal("confirmacion", texto, boton);
-	});
-	$('#alerta').click(function(event) {
-	    texto = '<strong>Texto</strong> alerta ejemplo<br>';
-	    ventanaModal("alerta", texto);
-	});
-	$('#notificacion').click(function(event) {
-	    texto = '<strong>Texto</strong> notificación ejemplo';
-	    ventanaModal("notificacion", texto);
-	});
-	$('#personalizado').click(function(event) {
-	    texto = '<strong>Texto</strong> personalizado';
-	    boton = '<a class="green" href="#"><i class="fa fa-trash"></i>BOTON</a>';
-	    ventanaModal("personalizado", texto, boton, "Titulo Personalizado");
-	});
-</script>
